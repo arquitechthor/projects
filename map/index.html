@@ -1,0 +1,158 @@
+<!--
+=========================================================
+* Soft UI Dashboard - v1.0.7
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://arquitechthor.github.io/assets/img/apple-icon.png">
+  <link rel="shortcut icon" type="image/x-icon"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAACDFJREFUWEfFl1lvXdUVx397OMMdcu+1HY9xSOwkxCnQVEBAIYiE6aFFFNqHqGq/RD8C36H9An0pUtSKtlFpBai4lDC1DKFKA3HsxCGDY8f2nc+4967uNTgxJAxPHGnrSOectfZv//da66wt+J4v8T3Pz/cP4F54Qf7toYe8fcDeH7+XCfGC/a6qOOfE7OxsMDk5ud0If5e1poi015JW63K9Xm8fe/xxI8Ddzq/4+OzZw7nRjwmFVLhFKeSiUW6xCCt79+1L72Q4N/dyAPsqnudNWqH3INRuIeVeB9NJkhSjNFtSUp5z1ix6gkXpsgXdaCx9eOlS5/jx4+YLGPHR2fnfWid+5UAK4a5KxGcItyCcOC+EmdNazCtTX/KvttqtoaFCoVAYt563Wwl/r1JyCiGmrVNTKWIidrraypy60YyxcSRqvo1KvrgRSC4rac87y5yS8oJ2Zh7Wzs0ceHhNfPC/hdcamXjySkcQ5RBoQc2zZih09YJ2ixIuCNyFIAxWPO0NSME0iN0ZamfX6qGOkX4rE3RyQWQlq6nlSj0l7SRUfUvV2xgVHzMY2OY2z66EivPS2tecif/SA3j9fEsde3fFYzVVBIq+waBvqQUw4BsGPBNtL/uRVyiEXaML7VyI3oStXNLOBZ1MkH0eOYnNuLYes9ruaarRGArKUvY2fG33DbtKxowVzSXP5b/pA5yp62NvroSsZ3pLnPRgal5OTedM1Dyq5QJdo/qrTQ3Yz8NKOgMuJskvEXU/Za3eoN4dwXozOH8IJxRCbCScLywz22IODSWMFHjpFoCAepygXBtkiBHb+oZfXEMVzXjVI7glc4Wz5NllTDKPs+vE+RxJ/Cnt+jrd7gDOvxvCu8GfwsrRTZ/DfsqjwzH7q3Z2E+Ct6x2ajfeR6ScIfxzj78XmIJDgT1IdGGO8Fm4BcK5FHL9Dt3UasmVQKxiT0FpvEbUjhBQItR30XTi9ow9k9H4qYY0jIxn31PKbAG8vLdNsvILonOovWnhj2MwghUSEh6gNP8nI8CRayg1RXEyef0o3eps0uoywdYRskud5H6Db6m7ZTqWrqOAucv8wpfLDPDJe3Apwajmn1ZlHtk/iovc3jYUso7zDVAYeYnh4iqC4Eyc1Nl0kiWexto7Nm6T5AkKYrwVw4UGy4FGqpX0cGQu3AvSCsBU1UM3f47qv3AQQJYSeoliuMDC4k3L1abQ3StJ5myQ7g+/vIc+vksRv9QFMDq16RLfVxLl8Q00h8IJR0tJx4uAJhgLXj4EtW9ADqCcpXuskovNnnG1tkbBcKTM49gjFys/x1A6SnvTpaRwKY5Zw5grO+lh20u0W6TTOYNPLOOeQSuIH95AUewA/7Kf4bQHWUoVOF/A6f4XkXaxpbqxAjTEwfIiRscfwwh9gXJMkmiWNTmHN+iaoo0LgP04n3k19bRabnMPkXYQMcOFRssKjGG+EQd/cHqBXB4Qz6Owcqv1HSOdxchAXHKI29jSjgxP4ONL4X0TRSYypI3tp6XIsDuHvICg+S727n7XVeVy2hsuWQBTIiodx3iBCSAa8/M4A/RW7GB1/gJf8BycHSIMjVIf3MVH10WlK0vkT1ryJ0jNYm5LmZ3EuJgwOQel5rnVHqNcTSFvodBGlBXmwB6PKfbW+EaD3kbRddK8m5MtYNUl1cIyRmoemiE0uIFnG8/eTJGfpRicRLqFUeAZb/AmX21BvGkTawcsv4rsbWFkl9SYxaoCaf4cg/HIp7uW6H/8XFZ8mLCXUBguU/QP4+kfgVfu1Po3/TdR5CR9NofQzovAgVxvZBoDp4KXv4ScfIVyIUVOk/gEqpVGOjOZfzYKvAPRqd/cdVPNFgsIS2wa2UfCnCYvPoQsPIKQkz6+RRrP4okQQHqWtt20CKLOM1/kDovtPcEWEniEPn6BcOcCRcb4dgIpOo9svUgwuUq6V8QsHCAvPEQT39gF6KllzHUSIVKNE2E0AnV9Gd19HJB/h8iWcGMaUj1Op3c+RkW+pgLBNdPvvlMU/qNQkpcqzBMVnkDK8bed2K0DPVpkVlFlCdN+CrIup/JRy5b6vz4JbPfcKidd5k4p4mYHhMcqV59HegTu2jbcCbLZdLkYmCwgbY4NpqmF5C8Brcy3vyVMrIUvxzd/vprFJ0e1XqRYW2D7xFMXCfQj8OwIkOK43U1Ybvdpws+nuLeSLsrwlDT88e+F3a6n4xek17c81Na1ck7rP/3i9mmBSZPwJQ1XF6Oh9+F+SXgrwFZS0o6QtgbQ0OzHLjZR6Kqhnmo6RJEZsAm0B+Pjs/C9zy69XU3FwqSv81VRTNx6NTFKPBV0jcNYyVPU2+wFPQqE/oWOb5ygr278XlU1DaW6kcRQ1ulmtkbhaPdOq56s31jNFM4VhP+P+wZS7ysyKubm54cioY8bYp5wU9yRG3NUxcns9FYX1WPQNG6nELwZMDITU1MbEJe1cUdm8qEzDE/YzhbvonFtw1i7kedqO42wUqabA7kpzOx07PVFPZKmZoUrKMBxaClq+2t+kMydO+OLee8cN4d25sFPCuWkh5LSxbndqxUQzk4PSDwsDlUJekqbjYa5LmHfO9saCxS2Y3F5wSftK5403mg9cu2Zmjx71x8fHB40Qk86oaQv7UGLaWTHtes+cs1Jy4itHsxMnTqiZmZlKr//PrNxtEVMWscfT3ngQ6g7GXnSWBePMfNZtLkZRtPrggw9md4zKXvME4vrp08VWsTiWGrHLKm+HMcZ5ynz4jWfDM2fO9EJ+UGtdc84ltSRZHj14sHunE9PXgdzu3TcCfFeH3/X7/wMT0smon7Q1tAAAAABJRU5ErkJggg==">
+  <title>
+    Soft UI Dashboard by Creative Tim
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="https://arquitechthor.github.io/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="https://arquitechthor.github.io/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="https://arquitechthor.github.io/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="https://arquitechthor.github.io/assets/css/soft-ui-dashboard.css?v=1.0.7"
+    rel="stylesheet" />
+</head>
+
+<body class="g-sidenav-show bg-gray-100">
+
+  <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+    <div class="container-fluid">
+      <div class="page-header min-height-300 border-radius-xl mt-4"
+        style="background-image: url('https://arquitechthor.github.io/assets/img/bgs/map-banner.png'); background-position-y: 50%;">
+        <span class="mask bg-gradient-primary opacity-6"></span>
+      </div>
+      <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
+        <div class="row gx-4">
+          <div class="col-auto">
+            <div class="avatar avatar-xl position-relative">
+              <img src="https://arquitechthor.github.io/assets/img/map-ai/logo.jpg" alt="profile_image"
+                class="w-100 border-radius-lg shadow-sm">
+            </div>
+          </div>
+          <div class="col-auto my-auto">
+            <div class="h-100">
+              <h5 class="mb-1">
+                MAP
+              </h5>
+              <p class="mb-0 font-weight-bold text-sm">
+                Microservice Architecture Project
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid py-4">
+        <hr />
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="card p-3">
+              <h6>Purpose</h6>
+              <p>
+                Create a project using
+                microservices architecture with the optimal
+                technology stack to be scalable and decoupled
+                so that it can easily adapt to new technological
+                changes (for example better technology).
+                It can also be deployed to the cloud for optimal performance and scalability.
+              </p>
+            </div>
+            <div>&nbsp;</div>
+            <div class="card p-3">
+              <h6>MAP Microservices Repositories</h6>
+              <p>
+                <strong>MAP Security</strong> project based on Spring
+                Security 6.
+              </p>
+              <a target="_blank" class="btn bg-gradient-primary mt-3 w-100"
+                href="https://github.com/arquitechthor/map-security">Map Security</a>
+            </div>
+            <div>&nbsp;</div>
+          </div>
+          <div class="col-lg-1">
+            &nbsp;
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card p-3">
+              <h6>Credits</h6>
+              <p>
+                <strong>Developers:</strong>
+                <ul>
+                  <li>
+                    Norangel Montes.
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://arquitechthor.github.io/">
+                      H&eacute;ctor Guzm&aacute;n.
+                    </a>
+                  </li>
+                </ul>
+              </p>
+              <p>
+              <strong>Template:</strong>
+              <a target="_blank" href="https://www.creative-tim.com/product/soft-ui-dashboard">
+                Soft UI Dashboard
+              </a> by <a href="https://www.creative-tim.com/" target="_blank">
+                Creative Tim
+              </a>
+            </p>
+            <p>
+              <strong>Libraries:</strong>
+              <ul><li>
+                <a target="_blank" href="https://resend.com/">
+                  Env&iacute;o de Correo
+                </a>
+              </li></ul>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--   Core JS Files   -->
+  <script src="https://arquitechthor.github.io/assets/js/core/popper.min.js"></script>
+  <script src="https://arquitechthor.github.io/assets/js/core/bootstrap.min.js"></script>
+  <script src="https://arquitechthor.github.io/assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="https://arquitechthor.github.io/assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="https://arquitechthor.github.io/assets/js/soft-ui-dashboard.min.js?v=1.0.7"></script>
+</body>
+
+</html>
